@@ -292,7 +292,21 @@ body{
   font-size: 1.2rem;
 }
 /* 유효성 검사 배너 */
-
+.validation-list{
+  margin-top: 25px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.validation-list a{
+  display: block;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  line-height: 30px;
+  height: 30px;
+  margin: 10px 0;
+  padding-left: 45px;
+  background: url("./images/validation_icon.png") no-repeat 20px 50%, linear-gradient(to bottom, #ccc, #eee);
+}
 /* 웹 관련 용어 */
 
 /* 슬로건 */

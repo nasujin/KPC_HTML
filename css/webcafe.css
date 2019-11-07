@@ -347,6 +347,42 @@ body{
   margin-top: 5px;
   line-height: 1.5;
 }
+/* 검색 flex-배치 균등배분할수있음 */
+.search-form{
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
+  border: 1px solid #aaa;
+  border-bottom-color: #fff;
+  border-radius: 15px 15px 0 0;
+  padding: 15px 25px 10px;
+}
+.search-form fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.search-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+[type="search"], .btn-search{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  height: 24px;
+}
+[type="search"]{
+  width: 200px;
+  padding: 0 0.5em;
+}
+.btn-search{
+  background-color: #222;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0 0.85em;;
+}
+/* 공지사항 및 자료실 */
+
+/* 새소식 */
 
 /* 슬로건 */
 .slogan{
